@@ -1,7 +1,6 @@
 #contato {
-  background: var(--cor-1);
+  background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
 }
-
 .contato {
   display: grid;
   grid-template-columns: 5fr 7fr;
@@ -15,7 +14,7 @@
 
 .contato-dados {
   border-radius: 5px 0 0 5px;
-  background:  var(--cor-12);
+  background: var(--cor-12);
 }
 
 .contato-formulario {
@@ -68,10 +67,18 @@
   .contato {
     grid-template-columns: 1fr;
   }
-  .contato-dados, .contato-formulario {
+  .contato-dados,
+  .contato-formulario {
     padding: 20px;
   }
   .contato-dados {
     border-radius: 0;
+  }
+  .contato-dados h2,
+  .contato-meios a:nth-child(3) {
+    margin-bottom: 32px;
+  }
+  .contato-redes {
+    margin-bottom: 12px;
   }
 }
