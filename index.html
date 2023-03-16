@@ -19,10 +19,10 @@
   <header class="header-bg">
     <div class="header container">
       <a href="./">
-        <img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
+        <img class="fadeInDown" data-anime="500" src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
       </a>
 
-      <nav aria-label="primaria">
+      <nav class="fadeInDown" data-anime="550" aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
           <li><a href="./bicicletas.html">Bicicletas</a></li>
           <li><a href="./seguros.html">Seguros</a></li>
@@ -35,18 +35,18 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+        <h1 data-anime="600" class="font-1-xxl cor-0 fadeInDown">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+        <p data-anime="800" class="font-2-l cor-5 fadeInDown">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a data-anime="900"class="botao fadeInDown" href="./bicicletas.html">Escolha a sua</a>
       </div>
-      <picture>
+      <picture data-anime="1000" class="fadeInDown">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta.">
       </picture>
     </div>
   </main>
 
-  <article class="bicicletas-lista">
+  <article data-anime="1200" class="bicicletas-lista fadeInDown">
     <h2 class="font-1-xxl container">Escolha a sua<span class="cor-p1">.</span></h2>
 
     <ul>
@@ -188,6 +188,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
