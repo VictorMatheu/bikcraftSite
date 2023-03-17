@@ -6,7 +6,6 @@ function formularioEnviado(resposta) {
   }else {
     formulario.innerHTML = "<p class='font-2-l' style='grid-column: 1/-1; padding: 1rem; border-radius: 4px; background: #f7f7f7;'><span style='color: #E00000;'>Erro no envio!</span> Você pode enviar diretamente para o nosso email em: contato@afetoempontos.com</p>"
   }
-  "gabriel"
 }
 
 function enviarFormulario(event) {
