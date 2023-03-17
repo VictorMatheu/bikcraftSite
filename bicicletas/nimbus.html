@@ -9,7 +9,8 @@
 
   <meta name="description" content="Termos e condições do site.">
 
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -20,11 +21,11 @@
   <header class="header-bg">
     <div class="header container">
       <a href="../">
-        <img src="../img/bikcraft.svg" alt="Bikcraft">
+        <img data-anime="500" class="fadeInDown" src="../img/bikcraft.svg" alt="Bikcraft">
       </a>
 
       <nav aria-label="primaria">
-        <ul class="header-menu font-1-m cor-0">
+        <ul data-anime="500"class="header-menu font-1-m cor-0 fadeInDown">
           <li><a href="../bicicletas.html">Bicicletas</a></li>
           <li><a href="../seguros.html">Seguros</a></li>
           <li><a href="../contato.html">Contato</a></li>
@@ -33,13 +34,13 @@
     </div>
   </header>
   <main class="titulo-bg">
-    <div>
+    <div data-anime="600" class="fadeInDown">
       <div class="titulo container">
         <p class="font-2-xl cor-5">R$ 4999</p>
         <h1 class="font-1-xxl cor-0">Nimbus Stark<span class="cor-p1">.</span></h1>
       </div>
     </div>
-    <div class="bicicleta container">
+    <div data-anime="800" class="bicicleta container fadeInDown">
       <div class="bicicleta-imagens">
         <img src="../img/bicicleta/nimbus1.jpg" alt="imagem bicicleta nimbus">
         <img src="../img/bicicleta/nimbus2.jpg" alt="imagem bicicleta nimbus">
@@ -157,6 +158,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="../js/plugins/simple-anime.js"></script>
   <script src="../js/script.js"></script>
 </body>
 
